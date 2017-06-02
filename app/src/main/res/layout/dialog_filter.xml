@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <RadioButton
+        android:id="@+id/rd_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oldest" />
+
+    <RadioButton
+        android:id="@+id/rd_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_1"
+        android:text="Newest" />
+
+    <RadioButton
+        android:id="@+id/rd_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price-Low" />
+
+    <RadioButton
+        android:id="@+id/rd_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_1"
+        android:text="Price-High" />
+
+    <RadioButton
+        android:id="@+id/rd_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mileage-Low" />
+
+    <RadioButton
+        android:id="@+id/rd_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_1"
+        android:text="Mileage-High" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+</LinearLayout>
+

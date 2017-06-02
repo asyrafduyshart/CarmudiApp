@@ -2,7 +2,8 @@
 
 A Simple Android Project with Carmudi API using Android Studio 2.3
 <p align="center">
-
+  <img src="https://raw.githubusercontent.com/asyrafduyshart/CarmudiApp/master/art/screen_1.png" width="250">
+  <img src="https://raw.githubusercontent.com/asyrafduyshart/CarmudiApp/master/art/screen_2.png">
 </p>
 
 ## This project uses:
